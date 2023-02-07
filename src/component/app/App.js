@@ -105,9 +105,9 @@ class App extends Component{
       <div className="App">
         <Routes>
           <Route path='/coffee_shop' element={<Owerlay />} >
-            <Route index element={<MainPage data={dataGoods}/>} />
+            <Route index element={<MainPage data={dataGoods} getIdItem={this.getIdItem}/>} />
             <Route path="/coffee_shop/shop" element={<ShopPage data={visibleData} apdateTemp={this.apdateTemp} getIdItem={this.getIdItem} apdateFilter={this.apdateFilter}/>} />
-            <Route path="/coffee_shop/foryoupleasure" element={<Pleasure data={visibleData}/>} />
+            {/* <Route path="/coffee_shop/foryoupleasure" element={<Pleasure data={visibleData}/>} /> */}
             <Route path="/coffee_shop/shop/coffee" element={<Items data={dataProduct[this.state.itemId]} />} />
             <Route path='*' element={<NotFound />} />
           </Route>

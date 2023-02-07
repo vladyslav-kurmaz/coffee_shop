@@ -9,13 +9,13 @@ import lightLogo from '../../../image/Logo/Light_contur_coffee.png';
 
 import './main-page.scss'
 
-function MainPage({data}) {
+function MainPage({data, getIdItem}) {
     
     return (
         <>
             <Header logo={lightLogo} styleColor={'#fff'} main='true'/>
-            <MainInfo/>
-            <Offers data={data}/>
+            <MainInfo />
+            <Offers data={data} getIdItem={getIdItem}/>
             
         </>
     );

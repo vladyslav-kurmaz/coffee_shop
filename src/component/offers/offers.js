@@ -4,14 +4,14 @@ import MaskGroup from '../../image/best-goods/Mask_group.jpg'
 
 import './offers.scss'
 
-function Offers({data}) {
+function Offers({data, getIdItem}) {
 
     return (
         <div className="offers">
             <img src={MaskGroup} alt="background"/>
             <h2 className="offers__title">Our best</h2>
             <ul className="offers__list">
-                <OffersItem data={data}/>
+                <OffersItem data={data} getIdItem={getIdItem}/>
             </ul>
         </div>        
     )

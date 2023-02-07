@@ -26,10 +26,10 @@ function Owerlay() {
                         {'Our coffee'}
                         <div className='outline'></div>
                     </Link>
-                    <Link to='/coffee_shop/foryoupleasure' className='menu__item' key={5} >
+                    {/* <Link to='/coffee_shop/foryoupleasure' className='menu__item' key={5} >
                         {'For your pleasure'}
                         <div className='outline' ></div>
-                    </Link>
+                    </Link> */}
                 </div>
             </nav>
 
@@ -50,10 +50,10 @@ function Owerlay() {
                         {'Our coffee'}
                         <div className='outline'></div>
                     </Link>
-                    <Link to='/coffee_shop/foryoupleasure' className='menu__item footer_menu-item' key={5} >
+                    {/* <Link to='/coffee_shop/foryoupleasure' className='menu__item footer_menu-item' key={5} >
                         {'For your pleasure'}
                         <div className='outline' ></div>
-                    </Link>
+                    </Link> */}
                 </div>
             </nav>
 

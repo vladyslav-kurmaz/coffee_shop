@@ -7,7 +7,7 @@ import darkLogo from '../../../image/Logo/DarkBeansLogo.png'
 import './items.scss';
 
 function Items({data}) {
-    console.log(data);
+    // console.log(data);
 
     return (
         <>
