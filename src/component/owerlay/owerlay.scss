@@ -1,0 +1,125 @@
+nav {
+
+    max-width: 355px;
+    max-height: 40px;
+    display: flex;
+    justify-content: flex-start;
+    
+
+
+    &.grid {
+        margin-top: 30px;
+        margin-left: 150px;
+        position: absolute;   
+        a {
+            color: #fff;
+
+        }
+    }
+
+    .menu__wrapper {
+        margin-left: 0px;
+        margin-top: 17px;
+        display: flex;
+        
+        .menu__item {
+            text-decoration: none;
+            display: block;
+            margin-right: 20px;
+            font-size: 12px;
+            background-color: inherit;
+            border: none;
+            cursor: pointer;
+            
+            &:last-child {
+                margin-right: 0px;
+            }
+            &:hover {
+                transform: scale(1.1);
+                transition: all;
+            }
+    
+            &:active {
+                transform: scale(1.0);
+                transition: all;
+            }
+            &.current {
+                position: relative;
+    
+                .outline {
+                    position: absolute;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    width: 30px;
+                    height: 2px;
+                    background-color: #000
+                    
+                }
+            }
+        }
+        
+    }
+}
+
+@media screen and (max-width: 974px ) {
+    nav {
+        &.grid {
+            // margin: 0 auto;
+            margin: 15px auto;
+            position: absolute; 
+            left: 50%;
+            transform: translateX(-50%);  
+            
+        }
+    }
+}
+
+// @media screen and (max-width: 830px ) {
+//     nav {
+//         &.grid {
+           
+//             margin: 15px auto;
+//             position: absolute; 
+//             left: 50%;
+//             transform: translateX(-50%);  
+            
+//         }
+//     }
+// }
+
+
+// @media screen and (max-width: 680px ) {
+    
+//     nav {
+//         &.grid {
+//             margin-top: -50px;
+//         }
+
+//         .menu__wrapper {
+//             a {
+//                 color: #000;
+//             }
+//         }
+        
+//     }
+    
+// }
+
+
+footer {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 50px;
+
+    nav {
+        margin-bottom: 30px;
+    }
+    & .footer_menu-item {
+       
+        color:#000;
+        text-decoration: none;
+    }
+}

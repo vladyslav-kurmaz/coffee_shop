@@ -1,0 +1,17 @@
+@import url(./style-none.scss);
+
+body {
+  margin: 0 auto;
+  // max-width: 1440px;
+  padding: 0;
+  font-size: 20px;
+  font-weight: 1.2;
+  font-family: 'Merienda', cursive;
+  max-width: 1440px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: 'Merienda', cursive;
+}

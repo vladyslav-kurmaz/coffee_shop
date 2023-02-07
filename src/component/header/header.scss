@@ -1,0 +1,281 @@
+.main {
+    // min-height: 640px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 9em 6.5em 1fr;
+    // width: 1440px;
+
+    // background-image: url(../../image/main-img/Main_bg.jpg);
+
+    .header__image {
+
+        // width: 100%;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 1; 
+    }
+
+    .header__title {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 3; 
+    }
+
+    span {
+        margin-top: 65px;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 3; 
+    }
+
+    .header__text {
+        font-size: 24px;
+        font-weight: bold;
+        line-height: 40px;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 3;
+        grid-row-end: 4; 
+    }
+
+    .header__more-info {
+        font-size: 14px;
+        width: 120px;
+        height: 40px;
+        margin-top: 100px;
+        // padding: 7px 42px;
+        border: 2px solid #fff;
+        background-color: inherit;
+
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        justify-self: center;
+
+        &:hover {
+            background-color: rgba($color: #dad0d0, $alpha: .6);
+            transition: all .4s;
+        }
+
+        &:active {
+            background-color: rgba($color: #dad0d0, $alpha: .6);
+            box-shadow: inset 2px 2px 5px 2px #000;
+        }
+    }
+}
+
+
+@media screen and (max-width: 1100px ){
+    .main {
+        // height: 640px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    
+        .header__image {
+            width: 100%;
+            height: auto;
+        
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start: 1;
+            grid-row-end: 3; 
+
+        }
+    
+        .header__title {
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start: 1;
+            grid-row-end: 2; 
+
+            align-self: center;
+        }
+    
+        span {
+            margin-top: 100px;
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start: 1;
+            grid-row-end: 1; 
+
+            align-self: center;
+
+        }
+    
+        .header__text {
+            font-size: 24px;
+            font-weight: bold;
+            line-height: 40px;
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start: 1;
+            grid-row-end: 3; 
+
+            align-self: center;
+        }
+    
+        .header__more-info {
+            font-size: 14px;
+            width: 120px;
+            height: 40px;
+            margin-top: 20px;
+
+            border: 2px solid #fff;
+            background-color: inherit;
+    
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start: 2;
+            grid-row-end: 2;
+            justify-self: center;
+            align-self: center;
+    
+            &:hover {
+                background-color: rgba($color: #dad0d0, $alpha: .6);
+                transition: all .4s;
+            }
+    
+            &:active {
+                background-color: rgba($color: #dad0d0, $alpha: .6);
+                box-shadow: inset 2px 2px 5px 2px #000;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 870px ) {
+    .main {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+
+        .header__title {    
+            align-self: center;
+        }
+
+        span {
+            margin-top: 0;
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start: 1;
+            grid-row-end: 2; 
+            align-self: end;
+        }
+
+        .header__text {
+            font-size: 24px;
+            font-weight: bold;
+            line-height: 40px;
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start: 2;
+            grid-row-end: 2; 
+
+            align-self: start;
+        }
+
+    }
+    
+}
+
+@media screen and (max-width: 844px ) {
+    .main {
+        .header__more-info {
+            margin-top: 60px;
+        }
+    }
+    
+}
+
+@media screen and (max-width: 730px ) {
+    .main {
+        .header__title {    
+            align-self: center;
+        }
+
+        span {
+            margin-top: 0;
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start: 1;
+            grid-row-end: 2; 
+            align-self: end;
+        }
+    }
+    
+}
+
+@media screen and (max-width: 680px ) {
+    .main {
+        // margin-top: 100px;
+        .header__title {    
+            align-self: center;
+        }
+
+        span {
+            margin-top: 0;
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start: 1;
+            grid-row-end: 2; 
+            align-self: end;
+        }
+
+        .header__image {
+            object-fit: cover;
+            width: 680;
+            height: 700px;
+            overflow: hidden;
+        }
+    }
+    
+}
+
+
+
+.inside {
+    // width: 1440px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+
+    .header__image {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+
+    .header__title {
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 1;
+        grid-row-end: 1;
+
+        font-size: 40px;
+        align-self: center;
+    }
+}
+
+@media screen and (max-width: 834px) {
+    .inside {
+        // margin: 0 auto;
+        width: 100%;
+        .header__image {
+            max-width: 100%;
+            height: 150px;
+            object-fit: cover;
+            overflow: hidden;
+        }
+
+        .header__title {
+            align-self: end;
+        }
+
+    }
+}

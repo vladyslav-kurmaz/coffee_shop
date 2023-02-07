@@ -1,0 +1,59 @@
+@import url(../offers-item/offers-item.scss);
+
+.products {
+    margin: 0 auto;
+    width: 800px;
+    padding: 0px;
+    
+
+    ul {
+        width: 100%;
+        // margin: 0 auto;
+        list-style: none;
+        padding: 0;
+
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .products {
+        margin: 0 auto;
+        width: 550px;
+        padding: 15px; 
+        display: flex;
+        justify-content: center;       
+    
+        ul {
+            width: 100%;
+            margin: 0 auto;
+            list-style: none;
+            padding: 0;
+    
+            display: flex;
+            flex-wrap: wrap;
+        }
+    }
+}
+
+@media screen and (max-width: 552px) {
+    .products {
+        // margin: 0 auto;
+        width: 350px;
+        // padding: 15px; 
+        // display: flex;
+        // justify-content: center;       
+    
+        // ul {
+        //     width: 100%;
+        //     margin: 0 auto;
+        //     list-style: none;
+        //     padding: 0;
+    
+        //     display: flex;
+        //     flex-wrap: wrap;
+        // }
+    }
+}
+
