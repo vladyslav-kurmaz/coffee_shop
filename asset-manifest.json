@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/coffee_shop/static/css/main.e52bba22.css",
-    "main.js": "/coffee_shop/static/js/main.cf219fc3.js",
+    "main.css": "/coffee_shop/static/css/main.e1b51d31.css",
+    "main.js": "/coffee_shop/static/js/main.f2b15def.js",
     "static/media/Mask_group.jpg": "/coffee_shop/static/media/Mask_group.457612f282a2daeff7bf.jpg",
     "static/media/Aromistico.jpg": "/coffee_shop/static/media/Aromistico.34b0a790159e4db9dd31.jpg",
     "static/media/pleasure_bg.png": "/coffee_shop/static/media/pleasure_bg.ae470d7cda1ff9ce3016.png",
@@ -15,11 +15,11 @@
     "static/media/Black_kult.jpg": "/coffee_shop/static/media/Black_kult.8319f90d8bf1cdc574c5.jpg",
     "static/media/pleasure_page.png": "/coffee_shop/static/media/pleasure_page.e6267ccea2c631c0d7bf.png",
     "index.html": "/coffee_shop/index.html",
-    "main.e52bba22.css.map": "/coffee_shop/static/css/main.e52bba22.css.map",
-    "main.cf219fc3.js.map": "/coffee_shop/static/js/main.cf219fc3.js.map"
+    "main.e1b51d31.css.map": "/coffee_shop/static/css/main.e1b51d31.css.map",
+    "main.f2b15def.js.map": "/coffee_shop/static/js/main.f2b15def.js.map"
   },
   "entrypoints": [
-    "static/css/main.e52bba22.css",
-    "static/js/main.cf219fc3.js"
+    "static/css/main.e1b51d31.css",
+    "static/js/main.f2b15def.js"
   ]
 }
