@@ -51,3 +51,20 @@
 
 
 }
+
+@media screen and (max-width: 900px) {
+    .item__wrapper {
+        display: flex;
+        flex-direction: column;
+
+        .item__photo {
+            margin: 30px auto;
+
+        }
+
+        .item__info {
+            margin: 0 auto;
+        }
+    }
+
+}
