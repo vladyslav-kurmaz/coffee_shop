@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/coffee_shop/static/css/main.e52bba22.css",
+    "main.js": "/coffee_shop/static/js/main.cf219fc3.js",
+    "static/media/Mask_group.jpg": "/coffee_shop/static/media/Mask_group.457612f282a2daeff7bf.jpg",
+    "static/media/Aromistico.jpg": "/coffee_shop/static/media/Aromistico.34b0a790159e4db9dd31.jpg",
+    "static/media/pleasure_bg.png": "/coffee_shop/static/media/pleasure_bg.ae470d7cda1ff9ce3016.png",
+    "static/media/Main_bg.jpg": "/coffee_shop/static/media/Main_bg.b80db744dc8d034bd438.jpg",
+    "static/media/ourCoffee.jpg": "/coffee_shop/static/media/ourCoffee.c63c07e2659dcbf46e62.jpg",
+    "static/media/Starbucks.jpg": "/coffee_shop/static/media/Starbucks.8db2311d3f26b8ca8ffe.jpg",
+    "static/media/Shop_photo.png": "/coffee_shop/static/media/Shop_photo.4e128904fabfd14a7b7f.png",
+    "static/media/Lamborghini-Espresso.jpg": "/coffee_shop/static/media/Lamborghini-Espresso.5f0e74d65ab1bbb042cd.jpg",
+    "static/media/presto.jpg": "/coffee_shop/static/media/presto.6aa05c8118e97e827499.jpg",
+    "static/media/Solino.jpg": "/coffee_shop/static/media/Solino.621e93063727df1c5da3.jpg",
+    "static/media/Black_kult.jpg": "/coffee_shop/static/media/Black_kult.8319f90d8bf1cdc574c5.jpg",
+    "static/media/pleasure_page.png": "/coffee_shop/static/media/pleasure_page.e6267ccea2c631c0d7bf.png",
+    "index.html": "/coffee_shop/index.html",
+    "main.e52bba22.css.map": "/coffee_shop/static/css/main.e52bba22.css.map",
+    "main.cf219fc3.js.map": "/coffee_shop/static/js/main.cf219fc3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e52bba22.css",
+    "static/js/main.cf219fc3.js"
+  ]
+}
