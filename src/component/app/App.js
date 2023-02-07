@@ -109,6 +109,7 @@ class App extends Component{
             <Route path="/coffee_shop/shop" element={<ShopPage data={visibleData} apdateTemp={this.apdateTemp} getIdItem={this.getIdItem} apdateFilter={this.apdateFilter}/>} />
             {/* <Route path="/coffee_shop/foryoupleasure" element={<Pleasure data={visibleData}/>} /> */}
             <Route path="/coffee_shop/shop/coffee" element={<Items data={dataProduct[this.state.itemId]} />} />
+            <Route path="/coffee_shop/coffee" element={<Items data={dataProduct[this.state.itemId]} />} />
             <Route path='*' element={<NotFound />} />
           </Route>
         </Routes>
